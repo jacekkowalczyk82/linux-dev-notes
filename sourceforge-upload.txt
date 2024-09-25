@@ -1,0 +1,19 @@
+
+
+
+
+
+ISO_NAME=debian-live-10-ldd-xfce-2021-02-17_144227-amd64
+
+ISO_NAME=debian-live-10-ldd-xfce-nonfree-2021-02-18_101504-amd64
+
+ISO_NAME=debian-live-10-ldd-xfce-2021-02-18_111755-amd64
+
+rsync --progress -e ssh ${ISO_NAME}.sha256sum.txt  jacekkowalczyk8@frs.sourceforge.net:/home/frs/project/my-debian/live-buster-dwm-openbox-i3-xfce/
+
+rsync --progress  -e ssh ${ISO_NAME}.iso jacekkowalczyk8@frs.sourceforge.net:/home/frs/project/my-debian/live-buster-dwm-openbox-i3-xfce/
+
+
+
+
+
